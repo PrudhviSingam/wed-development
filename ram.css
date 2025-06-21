@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(60, 59, 58);
+    border: 3px solid  rgb(242, 172, 172)   ;
+    display: flow-root;
+    border-radius: 10px;
+    background-image:url(rama1.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: scroll;
+}
+h1{
+    color: rgb(28, 19, 7);
+    background-color: yellowgreen;
+    margin: 3px;
+    border-radius: 10px;
+    text-shadow: 3px 3px 5px rgb(218, 85, 14),-3px -3px 5px rgb(208, 12, 211);
+}
+i{
+    color: burlywood;
+    text-shadow: 3px 3px 5px rgb(218, 85, 14),-3px -3px 5px rgb(208, 12, 211);
+}
+#img1{
+   margin: 50px;
+    float: right;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+}
+#img2{
+    margin:50px ;
+     
+    float: right;
+    border-radius: 10px;
+    display:  block
+}
+ pre{
+    border: 3px solid;
+    height: 100px;
+    overflow: scroll; 
+    color: blanchedalmond;
+ }
+ a{
+    color: bisque;
+ }

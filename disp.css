@@ -1,0 +1,39 @@
+ 
+ button:hover{
+   font-size: 1.1em;
+    background-color:  rgb(191, 249, 105);
+ }
+ button:active{
+   background-color: rgb(86, 244, 220);
+ 
+ }
+ button{
+   background-color: rgb(220, 174, 118);
+ }
+ a:link{
+     color: rgb(20, 164, 236);
+    
+ }
+ a:hover{
+      color: rgb(235, 32, 184);
+      font-size: 1.1em;
+ }
+ a:active{
+    color: chartreuse;
+ }
+ a:visited{
+   color: rgb(241, 12, 12);
+ }
+ #greeting >p{
+    background-color: antiquewhite;
+    color: crimson;
+    padding: 15px;
+    display: none;
+      
+ }
+ #greeting:active p{
+  
+   display:block;
+   background-color:  bisque;
+   color: blue;
+ }

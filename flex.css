@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    border: 10PX solid black;
+    height: 90vh;
+    flex-wrap:wrap;
+    align-content:center;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    flex-direction: column;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 6em;
+    border-radius: 15px;
+}
+#box1{
+    background-color:pink;
+   
+    align-self:end;
+    transform: translateX(100%)   scaleX(1) rotateZ(45deg) ;
+}
+#box2{
+    background-color: rgb(76, 172, 240);
+     order:-1;
+}
+#box3{
+    background-color: rgb(23, 214, 26);
+    order:-1;
+     
+}
+#box4{
+    background-color: rgb(230, 188, 21);
+    order:1;
+     
+     
+}
+img{
+    transform: translateX(10em) translateY(10em) scaleX(1) rotateZ(7deg);
+     box-shadow: 3px 3px 5px yellow, -3px -3px 5px rgb(7, 229, 162);
+}

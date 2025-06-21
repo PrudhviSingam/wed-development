@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    
+}
+header{
+    background-color:rgb(16, 16, 16) ;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 3px 3px 5px rgb(21, 168, 222),-3px -3px 5px #f20d0d;
+ }
+ .navbar{
+    background-color: rgb(15, 213, 240);
+    height: 50px;
+ }
+ .navbar h4{
+    text-align:center;
+    font-size:xx-large ;
+   
+ }
+ aside{
+    float:left;
+    width: 28%;
+ padding: 10px; 
+ }
+
+ article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+ }
+ section{
+    width: 32%;
+    float: left;
+    padding: 10px;
+ }
+ footer{
+    background-color:rgb(50, 221, 234) ;
+    color: antiquewhite;
+    font-size: xx-large;
+    text-align: center;
+    padding: 3px;
+    text-shadow: 3px 3px 5px rgb(196, 223, 17),-3px -3px 5px #f20d0d;
+ }
+ p::first-letter{
+    color:orangered;
+ }
